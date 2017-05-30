@@ -1,13 +1,15 @@
-< Html >
-< Head >
-< Título > Exemplo 9 </ title >
-</ Head >
-< Body >
-< H1 > Estrutura de Repetição (For) </ h1 >
-<? Php
-Para ( $ i = 1 ; $ i <= 10 ; $ i ++ ) {
-Echo " <b> Número: $ i <br> " ;
+<html>
+<head>
+<title>Exemplo 10</title>
+</head>
+<body>
+<h1>Estrutura de Repetição(while)</h1>
+<?php
+$num=1;
+while($num<=10){
+echo"Número: $num <br>";
+$num++;
 }
-? >
-</ Body >
-</ Html >
+?>
+</body>
+</html>
