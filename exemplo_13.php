@@ -1,17 +1,17 @@
-< Html >
-< Head >
-< Title > </ title >
-</ Head >
-< Body >
-< H1 > Exemplo 13 </ h1 >
-<? Php
-Função  soma ( $ n1 , $ n2 ) {
-Return  $ n1 + $ n2 ;
-} Função  imprimir () {
-Return " O resultado dá soma é: " ;
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>Exemplo 13</h1>
+<?php
+function soma($n1,$n2){
+return $n1+$n2;
+} function imprimir(){
+return"O resultado dá soma é:";
 }
-Echo imprimir () . Soma ( 115 , 30 );
-? >
+echo imprimir().soma(115,30);
+?>
 
-</ Body >
-</ Html >
+</body>
+</html>
