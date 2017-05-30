@@ -1,15 +1,15 @@
-< Html >
-< Head >
-< Título > Exemplo 10 </ title >
-</ Head >
-< Body >
-< H1 > Estrutura de Repetição (while) </ h1 >
-<? Php
-$ Num = 1 ;
-Enquanto ( $ num <= 10 ) {
-Echo " Número: $ num <br> " ;
-$ Num ++ ;
+<html>
+<head>
+<title>Exemplo 10</title>
+</head>
+<body>
+<h1>Estrutura de Repetição(while)</h1>
+<?php
+$num=1;
+while($num<=10){
+echo"Número: $num <br>";
+$num++;
 }
-? >
-</ Body >
-</ Html >
+?>
+</body>
+</html>
