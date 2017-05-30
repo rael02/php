@@ -1,17 +1,17 @@
-< Html >
-< Head >
-< Title > </ title >
-</ Head >
-< Body >
-< H1 > Exemplo 14.1 </ h1 >
-<? Php
-Função  testeLocal () {
-$ A = 25 ;
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>Exemplo 14.1</h1>
+<?php
+function testeLocal(){
+$a=25;
 }
-Echo " <h1> Variável Local </ h1> " ;
-TesteLocal ();
-Echo  $ a = 25 ;
-? >
+echo"<h1>Variável Local</h1>";
+testeLocal();
+echo $a=25;
+?>
 
-</ Body >
-</ Html >
+</body>
+</html>
