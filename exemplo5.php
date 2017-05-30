@@ -1,29 +1,29 @@
-< Html >
-< Head >
-< Title > </ title >
-</ Head >
-< Body >
-<? PHP
-Echo  " <h1> operadores de Comparação <br> </ h1> " ;
-$ A = 15 ;
-$ B = 42 ;
-$ C = 42,0 ;
-Echo  " $ b == $ c " , $ b == $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ b === $ c " , $ b === $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ b ! = $ C " , $ b ! = $ C ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ a <> $ c " , $ a <> $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ a < $ c " , $ a > $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ a > $ c " , $ a > $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ a <= $ c " , $ a <= $ c ? " Verdadeiro " : " falso " ;
-Echo  " <br> " ;
-Echo  " $ a > = $ c " , $ a > = $ c ? " Verdadeiro " : " falso " ;
-? >
-</ PHP >
-</ Body >
-</ Html >
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?PHP
+echo "<h1> operadores de Comparação<br></h1>";
+$a=15;
+$b=42;
+$c=42.0;
+echo "$b==$c",$b==$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$b===$c",$b===$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$b!=$c", $b!=$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<>$c",$a<>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<$c",$a>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a>$c",$a>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<=$c",$a<=$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a>=$c",$a>=$c ? "verdadeiro" : "falso";
+?>
+</PHP>
+</body>
+</html>
