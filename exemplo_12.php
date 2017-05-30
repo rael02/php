@@ -1,20 +1,20 @@
-< Html >
-< Head >
-< Title > </ title >
-</ Head >
-< Body >
-<? Php
-Função  msn () {
-$ Msn = " Olá Bem Vindo como Funções de PHP " ;
- Echo " <h2> $ msn </ h2> " ;
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+function msn(){
+$msn="Olá Bem Vindo as Funções de PHP";
+ echo"<h2> $msn</h2>";
  }
- Função  imprimir ( $ texto ) {
- Echo " <h3> $ texto </ h3> " ;
+ function imprimir($texto){
+ echo"<h3>$texto</h3>";
  }
- Msn ();
-Imprimir ( " testando função " );
+ msn();
+ imprimir("testando função");
  
-? >
+?>
 
-</ Body >
-</ Html >
+</body>
+</html>
