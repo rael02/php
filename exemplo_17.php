@@ -1,23 +1,23 @@
-< Html >
-< Head >
-< Título > Exemplo 17 </ title >
-</ Head >
-< Body >
-<? Php
-Echo " <h1> Lendo um vetor </ h1> " ;
-$ Frutas = array ( " Laranja " , " Maçã " , " Uva " , " Banana " , " Mamão " );
-Foreach ( $ frutas  como  $ valor ) {
-Echo " <li> Fruta: $ valor </ li> " ;
+<html>
+<head>
+<title>Exemplo 17</title>
+</head>
+<body>
+<?php
+echo"<h1>Lendo um vetor</h1>";
+$frutas=array("Laranja","Maçã","Uva","Banana","Mamão");
+foreach($frutas as $valor){
+echo"<li>Fruta: $valor</li>";
 }
-Echo " <br> " ;
-$  Dados =  array ( " nome " => " Maria Cristina " ,
-" Rua " => " São João " ,
-" Bairro " => " Cidades dos Campos " ,
-" Cidade " => " São Paulo " );
-Foreach ( $ dados  como  $ chave  =>  $ valor )
+echo"<br>";
+$dados = array("nome"=>"Maria Cristina" ,
+"rua"=>"São João" , 
+"bairro"=>"Cidades dos Campos" , 
+"cidade"=>"São Paulo");
+foreach($dados as $chave => $valor)
 {
-Echo " $ chave : $ valor " ;
+echo"$chave : $valor";
 }
-? >
-</ Body >
-</ Html >
+?>
+</body>
+</html>
