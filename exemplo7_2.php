@@ -1,18 +1,18 @@
-< HTML >
-< HEAD >
-< Meta  charset = " utf-8 " />
-</ HEAD >
-< BODY >
-< H1 > Estrutura condicional (IF / ELSE) </ h1 >
-<? Php
-$ Idade = 12 ;
-$ Maioridade = 18 ;
-se ( $ Idade > = $ maioridade ) {
-echo ( " <br> <b> " + $ Idade . " anos, rápido Você já E Maior de Idade </ b> " );
+<HTML>
+<HEAD>
+<meta charset="utf-8"/>
+</HEAD>
+<BODY>
+<h1>Estrutura condicional (IF/ELSE)</h1>
+<?php
+$idade=12;
+$maioridade=18;
+if($idade>=$maioridade){
+echo("<br><b>"+$idade."anos, você já é maior de idade</b>");
 }
-Else {
-echo ( " <br> <b> " + $ Idade . " anos, rápido Você AINDA Não E Maior de Idade </ b> " );
+else{
+echo("<br><b>"+$idade."anos, você ainda não é maior de idade</b>");
 }
-? >
-</ BODY >
-</ HTML >
+?>
+</BODY>
+</HTML>
