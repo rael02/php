@@ -12,14 +12,14 @@
 <html>
 <head>
 	<meta charset='utf-8'>
-	< Script >
-	 Função  visita ( valor ) {
-	 	Alerta (valor + ' visitas no site ' );
+	<script>
+	 function visita(valor){
+	 	alert (valor+' visitas no site');
 	 }
-	< / Script >
-</ Head >
-	<? Php
-	 	Echo  " <body onload = 'visita ( $ valor )'> " ;	 
-	? >
-</ Body >
-</ Html >
+	</script>
+</head>
+	<?php
+	 	echo "<body onload='visita($valor)'>";	 
+	?>
+</body>
+</html>
