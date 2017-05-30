@@ -1,17 +1,29 @@
-< Html >
-< Head >
-< Title > </ title >
-</ Head >
-< Body >
-<? Php
-Echo " <h1> ******** Operadores de Cordas ******* </ h1> <br> " ;
-$ A = " Bem Vindo " ;
-$ B = " ao curso " ;
-$ C = " de informática " ;
-$ D = $ a . $ b . $ C. = " Dá disciplina de PHP </ br> " ;
-Echo  $ d ;
-$ A. = " Aluno " ;
-Echo  $ a ;
-? >
-</ Body >
-</ Html >
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?PHP
+echo "<h1> operadores de Comparação<br></h1>";
+$a=15;
+$b=42;
+$c=42.0;
+echo "$b==$c",$b==$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$b===$c",$b===$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$b!=$c", $b!=$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<>$c",$a<>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<$c",$a>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a>$c",$a>$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a<=$c",$a<=$c ? "verdadeiro" : "falso";
+echo "<br>";
+echo "$a>=$c",$a>=$c ? "verdadeiro" : "falso";
+?>
+</PHP>
+</body>
+</html>
