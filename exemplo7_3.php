@@ -1,32 +1,32 @@
-< HTML >
-< HEAD >
-< TITLE > Novo Documento </ TITLE >
-</ HEAD >
-< BODY >
-< H1 > Estrutura condicional (se / else) </ h1 >
-< H2 > Cálculo IMC </ h2 >
-<? Php
-$ Altura = 1,58 ; // Altura do indivíduo
-$ Peso = 62 ; // Peso do indivíduo
-$ Imc = $ peso / ( $ altura * $ altura ); // Cálculo do IMC
-se ( $ IMC < 18,5 ) {
-Echo ( $ imc + " Classificação magreza " );
+<HTML>
+<HEAD>
+<TITLE>New Document</TITLE>
+</HEAD>
+<BODY>
+<h1>Estrutura condicional (if/else)</h1>
+<h2>Cálculo IMC</h2>
+<?php
+$altura=1.58; //Altura do indivíduo
+$peso=62; //Peso do indivíduo
+$imc=$peso/($altura*$altura); //Cálculo do IMC
+if($imc<18.5){
+echo ($imc+" Classificação magreza");
 }
-Else  if (( $ imc > 18.5 ) && ( $ imc < 24.9 )) {
-Eco ( $ imc . " Classificação saudável " );
+else if(($imc>18.5)&&($imc<24.9)){
+echo ($imc." Classificação saudável");
 }
-Else  if (( $ imc > 24.9 ) && ( $ imc < 29.9 )) {
-Echo ( $ imc . " Classificação sobrepeso " );
+else if(($imc>24.9)&&($imc<29.9)){
+echo ($imc." Classificação sobrepeso");
 }
-Else  if (( $ imc > 29.9 ) && ( $ imc < 34.9 )) {
-Echo ( $ imc . " Classificação obesidade grau I " );
+else if(($imc>29.9)&&($imc<34.9)){
+echo ($imc." Classificação obesidade grau I");
 }
-Else  if (( $ imc > 34.9 ) && ( $ imc < 39.9 )) {
-Echo ( $ imc . " Classificação obesidade grau II (severa) " );
+else if(($imc>34.9)&&($imc<39.9)){
+echo ($imc." Classificação obesidade grau II(severa)");
 }
-Else  if ( $ imc > = 40 ) {
-Echo ( $ imc . " Classificação obesidade grau III (mórbida) " );
+else if($imc>=40){
+echo ($imc." Classificação obesidade grau III(mórbida)");
 }
-? >
-</ BODY >
-</ HTML >
+?>
+</BODY>
+</HTML>
