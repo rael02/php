@@ -5,7 +5,7 @@
 <body>
 <?php
 $idade=15;
-$nome ="Nícolas";
+$nome ="Rael";
 echo "Olá, meu nome é ",$nome,"<br>Minha idade é ",$idade;
 ?>
 </body>
