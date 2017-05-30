@@ -1,28 +1,28 @@
-< Html >
-< Head >
-< Título > Exemplo 18 </ title >
-</ Head >
-< Body >
-<? PHP
-$ Carros [ " Palio " ] [ " cor " ] = " azul " ;
-$ Carros [ " Palio " ] [ " Potência " ] = " 1.0 " ;
-$ Carros [ " Palio " ] [ " opcionais " ] = " Ar condicionado " ;
-$ Carros [ " corsa " ] [ " cor " ] = " cinza " ;
-$ Carros [ " corsa " ] [ " Potência " ] = " 1.3 " ;
-$ Carrod [ " corsa " ] [ " opcionais " ] = " MP3 " ;
-$ Carros [ " Gol " ] [ " cor " ] = " Branco " ;
-$ Carros [ " Gol " ] [ " Potência " ] = " 1.0 " ;
-$ Carros [ " Gol " ] [ " opcionais " ] = " Metálica " ;
-Foreach ( $ carros  como  $ modelos  =>  $ caracteristicas ) {
- Echo " <b> Modelo " .  $ Modelos . " </ B> " ;
- Echo " </ br> " ;
- foreach ( $ caracteristicas  como  $ caracteristicas  =>  $ valor ) {
-  Echo " $ caracteristicas : $ valor " ;
-  Echo " </ br> </ br> " ;
+ <html>
+<head>
+<title>exemplo 18</title>
+</head>
+<body>
+<?PHP
+$carros["Palio"]["cor"]="azul";
+$carros["Palio"]["potência"]="1.0";
+$carros["Palio"]["opcionais"]="Ar condicionado";
+$carros["corsa"]["cor"]="cinza";
+$carros["corsa"]["potência"]="1.3";
+$carrod["corsa"]["opcionais"]="MP3";
+$carros["Gol"]["cor"]="Branco";
+$carros["Gol"]["potência"]="1.0";
+$carros["Gol"]["opcionais"]="Metálica";
+foreach ($carros as $modelos => $caracteristicas){
+ echo"<b>  Modelo". $modelos."</b>";
+ echo"</br>";
+ foreach($caracteristicas as $caracteristicas => $valor){
+  echo"$caracteristicas : $valor";
+  echo"</br></br>";
   }
   }
-  ? >
+  ?>
   
 
-</ Body >
-</ Html >
+</body>
+</html>
