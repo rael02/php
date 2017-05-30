@@ -1,14 +1,14 @@
-< Html >
-< Head >
-< Título > Exemplo 2 </ title >
-</ Head >
-< Body >
-<? Php
-Echo  " ******** Constante declarada ******** <br> " ;
-Define ( " CONSTANTE_ALO " , " Olá turma! Assim declara uma constante " );
-Echo  CONSTANTE_ALO ;
-Echo " <br> <br> <br> ******** Constante declarada ******** <br> " ;
-Echo  phpinfo ();
-? >
-</ Body >
-</ Html >
+<html>
+<head>
+<title>exemplo 2</title>
+</head>
+<body>
+<?php
+echo "******** Constante declarada ********<br>";
+define("CONSTANTE_ALO","Olá turma! assim declara uma constante");
+echo CONSTANTE_ALO;
+echo"<br><br><br>******** Constante declarada ********<br>";
+echo phpinfo();
+?>
+</body>
+</html>
